@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Info",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "cookies",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/in/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "https://www.linkedin.com/*",
+     "http://localhost:3000/*"
+  ]
+}

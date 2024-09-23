@@ -1,0 +1,93 @@
+body {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    background-color: #000319;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: #3996fb #000319; 
+  }
+  
+  #closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #000319;
+    color: #3996fb;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #fetchButton {
+    padding: 10px 20px;
+    background-color: #3996fb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  #fetchButton:hover {
+    background-color: #2876c9;
+  }
+  
+  #output {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #tabTitle {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  #urlBox {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #3996fb;
+    background-color: #000319;
+    word-wrap: break-word;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  
+  body::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #000319; 
+    border-radius: 10px; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #3996fb; 
+    border-radius: 10px; 
+  }
+  
+  
+
+ 
+  
