@@ -1,4 +1,4 @@
-// content.js
+//content.js
 
 function scrapeProfile() {
     const name = document.querySelector('.text-heading-xlarge')?.innerText || '';
@@ -25,4 +25,7 @@ function scrapeProfile() {
       sendResponse(profileData);
     }
   });
+
+
+
   
